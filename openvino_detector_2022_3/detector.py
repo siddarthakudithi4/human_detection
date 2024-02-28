@@ -24,6 +24,8 @@ if frame is None:
     print("Error: Could not read the image.")
     exit()
 
+#
+
 # Obtain model input dimensions
 input_layer = compiled_model.input(0)
 output_layer = compiled_model.output(0)
